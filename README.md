@@ -1,5 +1,5 @@
 <p align="left">
-  <i>This is my natural habitat🌱</i>
+  <i>This is my natural habitat 🌱</i>
 </p>
 
 <br/>
