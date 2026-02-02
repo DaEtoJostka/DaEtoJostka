@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Karlov Ivan | GitHub Profile</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#2563eb",
+              "background-light": "#ffffff",
+              "background-dark": "#0d1117",
+            },
+            fontFamily: {
+              display: ["Inter", "sans-serif"],
+              mono: ["JetBrains Mono", "monospace"],
+            },
+            borderRadius: {
+              DEFAULT: "6px",
+            },
+          },
+        },
+      };
+    </script>
+<style>
+        .contribution-grid {
+            display: grid;
+            grid-template-columns: repeat(53, 10px);
+            grid-gap: 3px;
+        }
+        .contribution-cell {
+            width: 10px;
+            height: 10px;
+            border-radius: 2px;
+        }
+        .cell-0 { background-color: #161b22; }
+        .cell-1 { background-color: #0e4429; }
+        .cell-2 { background-color: #006d32; }
+        .cell-3 { background-color: #26a641; }
+        .cell-4 { background-color: #39d353; }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-300 font-display transition-colors duration-300">
+<div class="max-w-3xl mx-auto px-6 py-20 lg:py-32">
+<header class="mb-16">
+<h1 class="text-4xl font-bold text-slate-900 dark:text-white mb-6">Hi, I'm Karlov Ivan</h1>
+<div class="space-y-4 font-mono text-lg leading-relaxed">
+<p class="italic text-slate-600 dark:text-slate-400">
+                    Hi — here you can see the most recent things I've shared or changed around here ~
+                </p>
+<p>
+                    I design digital tools that bridge the gap between human intuition and machine precision. Currently focused on LLM orchestration and terminal-based aesthetics.
+                </p>
+</div>
+</header>
+<nav class="flex gap-8 mb-16 border-b border-slate-200 dark:border-slate-800 pb-2">
+<a class="text-slate-900 dark:text-white font-semibold underline decoration-2 underline-offset-8" href="#">home</a>
+<a class="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white transition-colors" href="#">repositories</a>
+<a class="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white transition-colors" href="#">gallery</a>
+<div class="ml-auto">
+<button class="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white font-mono text-sm" onclick="document.documentElement.classList.toggle('dark')">
+                    &gt; toggle_mode
+                </button>
+</div>
+</nav>
+<section class="mb-20">
+<h2 class="text-xs uppercase tracking-widest text-slate-400 dark:text-slate-500 font-bold mb-8">Recently Building</h2>
+<div class="space-y-10">
+<div class="group flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8">
+<span class="font-mono text-sm text-slate-400 dark:text-slate-600 shrink-0">Jan 09, 26</span>
+<div class="flex-1">
+<a class="text-xl font-semibold text-slate-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors block mb-1" href="#">
+                            PyBonsai-CLI
+                        </a>
+<p class="text-slate-600 dark:text-slate-400 leading-snug">
+                            Procedural ASCII art trees generated in the comfort of your terminal. 
+                        </p>
+</div>
+</div>
+<div class="group flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8">
+<span class="font-mono text-sm text-slate-400 dark:text-slate-600 shrink-0">Nov 29, 25</span>
+<div class="flex-1">
+<a class="text-xl font-semibold text-slate-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors block mb-1" href="#">
+                            UI Evolution
+                        </a>
+<p class="text-slate-600 dark:text-slate-400 leading-snug">
+                            From CLI to the LLM era. A deep dive into structural thinking for modern interfaces.
+                        </p>
+</div>
+</div>
+<div class="group flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8">
+<span class="font-mono text-sm text-slate-400 dark:text-slate-600 shrink-0">Oct 04, 25</span>
+<div class="flex-1">
+<a class="text-xl font-semibold text-slate-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors block mb-1" href="#">
+                            Sutt
+                        </a>
+<p class="text-slate-600 dark:text-slate-400 leading-snug">
+                            Minimalistic data processing pipeline for Jupyter environments.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-20">
+<h2 class="text-xs uppercase tracking-widest text-slate-400 dark:text-slate-500 font-bold mb-6">Tools of Choice</h2>
+<div class="flex flex-wrap gap-x-6 gap-y-3 font-mono text-sm">
+<span class="text-slate-700 dark:text-slate-300"># python</span>
+<span class="text-slate-700 dark:text-slate-300"># typescript</span>
+<span class="text-slate-700 dark:text-slate-300"># rust</span>
+<span class="text-slate-700 dark:text-slate-300"># neovim</span>
+<span class="text-slate-700 dark:text-slate-300"># pytorch</span>
+<span class="text-slate-700 dark:text-slate-300"># tailwind</span>
+</div>
+</section>
+<section class="mb-20 hidden md:block">
+<div class="flex items-center justify-between mb-6">
+<h2 class="text-xs uppercase tracking-widest text-slate-400 dark:text-slate-500 font-bold">Contributions</h2>
+<span class="text-[10px] font-mono text-slate-400">1,082 in the last year</span>
+</div>
+<div class="overflow-x-auto pb-4 scrollbar-hide">
+<div class="contribution-grid" id="contributions">
+</div>
+</div>
+</section>
+<footer class="pt-12 border-t border-slate-100 dark:border-slate-900">
+<div class="flex flex-wrap gap-8 mb-12 font-mono text-sm">
+<a class="flex items-center gap-1 text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">north_east</span> my-site
+                </a>
+<a class="flex items-center gap-1 text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">north_east</span> twitter
+                </a>
+<a class="flex items-center gap-1 text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">north_east</span> tg
+                </a>
+<a class="flex items-center gap-1 text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">north_east</span> email
+                </a>
+</div>
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+<div class="text-slate-400 dark:text-slate-600 font-mono text-xs">
+                    © 2026 Karlov Ivan. Built with precision and caffeine.
+                </div>
+<div class="opacity-50 dark:invert">
+<svg class="text-slate-900" fill="none" height="32" viewBox="0 0 100 60" width="48" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 40C30 10 70 50 90 20M30 50L50 10L70 50M20 30H80" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+</div>
+</footer>
+</div>
+<script>
+        // Set dark mode as default
+        document.documentElement.classList.add('dark');
+        // Populate contribution grid with random data for aesthetic
+        const grid = document.getElementById('contributions');
+        const cellCount = 53 * 7;
+        for (let i = 0; i < cellCount; i++) {
+            const cell = document.createElement('div');
+            const level = Math.floor(Math.random() * 5);
+            cell.className = `contribution-cell cell-${level}`;
+            grid.appendChild(cell);
+        }
+    </script>
+
+</body></html>
